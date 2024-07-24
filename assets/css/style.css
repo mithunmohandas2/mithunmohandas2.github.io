@@ -163,6 +163,13 @@ h6 {
   display: none;
 }
 
+#header.header-top p {
+  display: none;
+}
+#header.header-top hr {
+  display: none;
+}
+
 #header.header-top h1 {
   margin-right: auto;
   font-size: 36px;
@@ -1149,6 +1156,14 @@ section .container {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+#tagline {
+  text-align: center;
+  
+  @media (min-width: 992px) {
+      text-align: start;
   }
 }
 

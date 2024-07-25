@@ -124,7 +124,8 @@
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>31 March 1992</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Work Experience:</strong> <span>5 years </span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 8075468241 | 9447755969</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 8075468241 | 9447755969</span>
+                </li>
                 <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bengaluru, Karnataka (INDIA)</span>
                 </li>
               </ul>
@@ -446,6 +447,15 @@
         <p>Check My Resume</p>
       </div>
 
+      <div class="mt-3">
+        <a id="downloadLink" target="_blank" href="./assets/Mithun Mohandas_CV.pdf" download="Mithun Mohandas_CV.pdf">
+          <button type="button" id="submitButton">
+            <i class="bi bi-filetype-pdf" style="color: #fff;"></i>
+            Download PDF
+          </button>
+        </a>
+      </div>
+
       <div class="row">
         <div class="col-lg-6">
           <h3 class="resume-title">Sumary</h3>
@@ -679,8 +689,8 @@
               <h4>WEBSITE DEVELOPMENT</h4>
               <p>Client : Snive Technologies Pvt Ltd</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/SniveDash.webp" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Website Development"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/SniveDash.webp" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Website Development"><i class="bx bx-plus"></i></a>
                 <a href="https://snive-website.vercel.app/" data-gallery="portfolioDetailsGallery"
                   data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i
                     class="bx bx-link"></i></a>
@@ -844,11 +854,16 @@
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-              <a target="_blank" href="https://github.com/mithunmohandas2" class="youtube"><i class="bi bi-github"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/in/mithun-mohandas" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              <a target="_blank" href="https://www.facebook.com/mithunmohandas2/" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a target="_blank" href="https://www.instagram.com/mithunmohandas2/" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a target="_blank" href="https://behance.net/mithunmohandas" class="behance"><i class="bi bi-behance"></i></a>
+              <a target="_blank" href="https://github.com/mithunmohandas2" class="youtube"><i
+                  class="bi bi-github"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/mithun-mohandas" class="linkedin"><i
+                  class="bi bi-linkedin"></i></a>
+              <a target="_blank" href="https://www.facebook.com/mithunmohandas2/" class="facebook"><i
+                  class="bi bi-facebook"></i></a>
+              <a target="_blank" href="https://www.instagram.com/mithunmohandas2/" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+              <a target="_blank" href="https://behance.net/mithunmohandas" class="behance"><i
+                  class="bi bi-behance"></i></a>
             </div>
           </div>
         </div>
@@ -875,26 +890,35 @@
         <!-- <form  action="forms/contact.php" method="post" role="form" class="php-email-form mt-4"> -->
         <div class="row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" style="background-color: #151515; color: #fff; border-color: #414141;" id="name" placeholder="Your Name" required>
+            <input type="text" name="name" class="form-control"
+              style="background-color: #151515; color: #fff; border-color: #414141;" id="name" placeholder="Your Name"
+              required>
           </div>
           <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" style="background-color: #151515; color: #fff; border-color: #414141;" name="email" id="email" placeholder="Your Email" required>
+            <input type="email" class="form-control"
+              style="background-color: #151515; color: #fff; border-color: #414141;" name="email" id="email"
+              placeholder="Your Email" required>
           </div>
         </div>
         <div class="form-group mt-3">
-          <input type="text" class="form-control" style="background-color: #151515; color: #fff; border-color: #414141;" name="subject" id="subject" placeholder="Subject" required>
+          <input type="text" class="form-control" style="background-color: #151515; color: #fff; border-color: #414141;"
+            name="subject" id="subject" placeholder="Subject" required>
         </div>
         <div class="form-group mt-3">
-          <textarea class="form-control" style="background-color: #151515; color: #fff; border-color: #414141;" name="message" rows="5" placeholder="Message" required></textarea>
+          <textarea class="form-control" style="background-color: #151515; color: #fff; border-color: #414141;"
+            name="message" rows="5" placeholder="Message" required></textarea>
         </div>
         <div class="my-3">
           <!-- <div class="loading">Loading</div> -->
           <div class="error-message"></div>
           <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
         </div>
-        <div class="text-center"><button type="submit" style="background-color: #414141; color: #fff; border-radius: 10px;"> Send Message </button></div>
+        <div class="text-center mt-3"><button type="submit" id="submitButton"> Send Message </button></div>
       </form>
 
+      <a target="_blank"
+        href="https://api.whatsapp.com/send/?phone=918075468241&text&type=phone_number&app_absent=0"><img
+          id="stickyWhatsapp" alt="Whatsapp logo" src="./images/Whatsapp.gif"></a>
     </div>
   </section><!-- End Contact Section -->
 
